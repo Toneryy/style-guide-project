@@ -1,0 +1,14 @@
+# Сборка MkDocs
+site/
+
+# Окружения
+.venv/
+venv/
+__pycache__/
+node_modules/
+
+# Редакторы и ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

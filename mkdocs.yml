@@ -1,0 +1,59 @@
+site_name: Руководство по стилю документации Itmotify
+site_description: Правила написания и оформления документации музыкального сервиса Itmotify
+site_author: Мещеряков Д.П., Катков А.С.
+site_url: https://toneryy.github.io/style-guide-project/
+repo_url: https://github.com/Toneryy/style-guide-project
+repo_name: Toneryy/style-guide-project
+edit_uri: edit/main/docs/
+copyright: Мещеряков Д.П., Катков А.С. — Университет ИТМО, 2026
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - content.action.edit
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Включить тёмную тему
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Включить светлую тему
+
+plugins:
+  - search:
+      lang: ru
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
+  - pymdownx.tilde
+  - pymdownx.keys
+  - pymdownx.superfences
+
+validation:
+  nav:
+    omitted_files: warn
+    not_found: warn
+  links:
+    not_found: warn
+    anchors: warn
+
+nav:
+  - Главная: index.md
