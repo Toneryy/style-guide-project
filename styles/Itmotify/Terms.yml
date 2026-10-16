@@ -16,5 +16,6 @@ swap:
   '(?i:учётк\p{L}*|учетк\p{L}*)': аккаунт
   '(?i:e-mail|емейл\p{L}*|имейл\p{L}*)': электронная почта
   '(?i:итмотифа\p{L}*)': Itmotify
-  'ITMOtify|ITMOTIFY|itmotify': Itmotify
+  # Строчное itmotify допустимо в именах репозиториев и доменах: itmotify-api, api.itmotify.example
+  'ITMOtify|ITMOTIFY|itmotify(?![-.])': Itmotify
   'AI': ИИ
