@@ -77,6 +77,7 @@ nav:
   - Точечные рекомендации:
       - Интерфейс и действия: ui.md
       - Требования и ТЗ: requirements.md
+      - Доступность текста: accessibility.md
   - Шаблоны:
       - templates/index.md
       - Справочная статья: templates/help-article.md
