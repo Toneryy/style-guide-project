@@ -83,3 +83,7 @@ nav:
       - Требование: templates/requirement.md
       - Заметки о выпуске: templates/release-notes.md
   - Глоссарий: glossary.md
+  - Проверка руководства:
+      - examples/index.md
+      - "Требования ТЗ: до и после": examples/nfr-rewrite.md
+      - "Статья «Создать плейлист»": examples/create-playlist.md
