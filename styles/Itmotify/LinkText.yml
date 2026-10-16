@@ -1,0 +1,10 @@
+# Раздел «Доступность текста» → «Ссылки»
+extends: existence
+message: "Текст ссылки «%s» непонятен без окружения. Напишите, куда ведёт ссылка."
+link: https://toneryy.github.io/style-guide-project/accessibility/#ссылки
+level: error
+scope: raw
+ignorecase: true
+nonword: true
+tokens:
+  - '\[(?:здесь|тут|сюда|по ссылке|ссылка|ссылке|подробнее|читать далее|далее)\]\('
