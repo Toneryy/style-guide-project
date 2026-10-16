@@ -41,11 +41,20 @@ plugins:
 markdown_extensions:
   - toc:
       permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - tables
   - attr_list
   - pymdownx.tilde
   - pymdownx.keys
   - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+# По умолчанию MkDocs пропускает папку templates/ — нам она нужна.
+exclude_docs: |
+  !/templates/
 
 validation:
   nav:
@@ -57,3 +66,20 @@ validation:
 
 nav:
   - Главная: index.md
+  - Основы:
+      - Общие принципы: principles.md
+      - Стиль изложения: style.md
+  - Язык и оформление:
+      - Орфография и пунктуация: spelling.md
+      - Числа, даты и единицы: numbers.md
+      - Оформление текста: formatting.md
+      - Правила Markdown: markdown.md
+  - Точечные рекомендации:
+      - Интерфейс и действия: ui.md
+      - Требования и ТЗ: requirements.md
+  - Шаблоны:
+      - templates/index.md
+      - Справочная статья: templates/help-article.md
+      - Требование: templates/requirement.md
+      - Заметки о выпуске: templates/release-notes.md
+  - Глоссарий: glossary.md
