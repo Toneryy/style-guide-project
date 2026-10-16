@@ -5,4 +5,4 @@ link: https://toneryy.github.io/style-guide-project/style/#обращение-к
 level: error
 nonword: true
 tokens:
-  - '(?<=[\p{Ll},;:—]\s)(?:Вы|Вас|Вам|Вами|Ваш\p{L}*)(?!\p{L})'
+  - '(?<=[\p{Ll},;:–]\s)(?:Вы|Вас|Вам|Вами|Ваш\p{L}*)(?!\p{L})'

@@ -24,7 +24,7 @@ pip install -r requirements.txt
 mkdocs serve
 ```
 
-Сайт откроется по адресу <http://127.0.0.1:8000>. Подробнее о проверках и процессе ревью — в [CONTRIBUTING.md](CONTRIBUTING.md).
+Сайт откроется по адресу <http://127.0.0.1:8000>. Подробнее о проверках и процессе ревью – в [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Авторы
 

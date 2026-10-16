@@ -1,8 +1,9 @@
 # Раздел «Орфография и пунктуация» → «Тире, дефис и минус»
 extends: existence
-message: "Между словами ставьте тире «—», а не «%s»."
+message: "Ставьте короткое тире «–», а не «%s»."
 link: https://toneryy.github.io/style-guide-project/spelling/#тире-дефис-и-минус
 level: error
 nonword: true
 tokens:
   - '(?<=\S) -{1,2} (?=\S)'
+  - '\x{2014}'
