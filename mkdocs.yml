@@ -5,7 +5,7 @@ site_url: https://toneryy.github.io/style-guide-project/
 repo_url: https://github.com/Toneryy/style-guide-project
 repo_name: Toneryy/style-guide-project
 edit_uri: edit/main/docs/
-copyright: Мещеряков Д.П., Катков А.С. — Университет ИТМО, 2026
+copyright: Мещеряков Д.П., Катков А.С. – Университет ИТМО, 2026
 
 theme:
   name: material
@@ -25,7 +25,7 @@ theme:
       accent: pink
       toggle:
         icon: material/weather-night
-        name: Включить тёмную тему
+        name: Включить темную тему
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: deep purple
@@ -52,7 +52,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 
-# По умолчанию MkDocs пропускает папку templates/ — нам она нужна.
+# По умолчанию MkDocs пропускает папку templates/ – нам она нужна.
 exclude_docs: |
   !/templates/
 
@@ -83,8 +83,17 @@ nav:
       - Справочная статья: templates/help-article.md
       - Требование: templates/requirement.md
       - Заметки о выпуске: templates/release-notes.md
+      - README: templates/readme.md
+      - Описание метода API: templates/api-method.md
+  - Примеры документов:
+      - samples/index.md
+      - Справочная статья: examples/create-playlist.md
+      - Ответы на частые вопросы: samples/faq-premium.md
+      - Требования к функциям: samples/requirements-playlists.md
+      - README сервиса: samples/readme-api.md
+      - Описание метода API: samples/api-create-playlist.md
+      - Заметки о выпуске: samples/release-notes-1-4.md
   - Глоссарий: glossary.md
   - Проверка руководства:
       - examples/index.md
       - "Требования ТЗ: до и после": examples/nfr-rewrite.md
-      - "Статья «Создать плейлист»": examples/create-playlist.md
