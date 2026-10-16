@@ -82,8 +82,17 @@ nav:
       - Справочная статья: templates/help-article.md
       - Требование: templates/requirement.md
       - Заметки о выпуске: templates/release-notes.md
+      - README: templates/readme.md
+      - Описание метода API: templates/api-method.md
+  - Примеры документов:
+      - samples/index.md
+      - Справочная статья: examples/create-playlist.md
+      - Ответы на частые вопросы: samples/faq-premium.md
+      - Требования к функциям: samples/requirements-playlists.md
+      - README сервиса: samples/readme-api.md
+      - Описание метода API: samples/api-create-playlist.md
+      - Заметки о выпуске: samples/release-notes-1-4.md
   - Глоссарий: glossary.md
   - Проверка руководства:
       - examples/index.md
       - "Требования ТЗ: до и после": examples/nfr-rewrite.md
-      - "Статья «Создать плейлист»": examples/create-playlist.md
