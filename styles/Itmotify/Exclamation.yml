@@ -1,0 +1,8 @@
+# Раздел «Стиль изложения» → «Восклицательный знак»
+extends: existence
+message: "Не ставьте восклицательный знак в документации."
+link: https://toneryy.github.io/style-guide-project/style/#восклицательный-знак
+level: warning
+nonword: true
+tokens:
+  - '(?<=[\p{L}\d])!'

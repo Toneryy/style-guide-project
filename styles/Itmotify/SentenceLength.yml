@@ -1,0 +1,8 @@
+# Раздел «Стиль изложения» → «Предложения»: предел — 25 слов
+extends: occurrence
+message: "Предложение длиннее 25 слов. Попробуйте разделить его."
+link: https://toneryy.github.io/style-guide-project/style/#предложения
+level: suggestion
+scope: sentence
+max: 25
+token: '[\p{L}\d]+'

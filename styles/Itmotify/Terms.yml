@@ -1,0 +1,20 @@
+# Раздел «Глоссарий» и «Интерфейс и действия»
+extends: substitution
+message: "Термин: пишите «%s» вместо «%s»."
+link: https://toneryy.github.io/style-guide-project/glossary/
+level: error
+ignorecase: false
+swap:
+  '(?i:клик(?:ните|нуть|ает|ают|ни))': нажмите
+  '(?i:тап(?:ните|нуть|ает|ают))': нажмите
+  '(?i:залогин\p{L}*)': войдите
+  '(?i:разлогин\p{L}*)': выйдите
+  '(?i:юзер\p{L}*)': пользователь
+  '(?i:плей-лист\p{L}*)': плейлист
+  '(?i:трэк\p{L}*)': трек
+  '(?i:премиум\p{L}*)': Premium
+  '(?i:учётк\p{L}*|учетк\p{L}*)': аккаунт
+  '(?i:e-mail|емейл\p{L}*|имейл\p{L}*)': электронная почта
+  '(?i:итмотифа\p{L}*)': Itmotify
+  'ITMOtify|ITMOTIFY|itmotify': Itmotify
+  'AI': ИИ

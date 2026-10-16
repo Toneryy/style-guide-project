@@ -1,0 +1,9 @@
+# Раздел «Орфография и пунктуация» → «Кавычки»
+extends: existence
+message: "Используйте кавычки-«ёлочки» вместо «%s»."
+link: https://toneryy.github.io/style-guide-project/spelling/#кавычки
+level: error
+nonword: true
+tokens:
+  - '"[^"\n]+"'
+  - '“[^”\n]+”'

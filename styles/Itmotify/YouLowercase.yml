@@ -1,0 +1,8 @@
+# Раздел «Стиль изложения» → «Обращение к читателю»
+extends: existence
+message: "Обращайтесь на «вы» со строчной буквы: «%s»."
+link: https://toneryy.github.io/style-guide-project/style/#обращение-к-читателю
+level: error
+nonword: true
+tokens:
+  - '(?<=[\p{Ll},;:—]\s)(?:Вы|Вас|Вам|Вами|Ваш\p{L}*)(?!\p{L})'
